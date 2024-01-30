@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_white_rounded_10"
+    android:elevation="5dp"
+    android:layout_margin="10dp">
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/typeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/poppins_black"
+        android:textSize="18sp"
+        tools:text="Vehicle Name" />
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/typeCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="-20dp"
+        app:fontFamily="@font/poppins"
+        android:layout_below="@+id/typeName"
+        tools:text="(13 available)" />
+<com.google.android.material.imageview.ShapeableImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    tools:src="@mipmap/ic_launcher"
+    android:layout_below="@+id/typeCount"
+    android:background="@color/secondaryFaded"
+    app:shapeAppearanceOverlay="@style/Theme.Delivero.RoundedImage"
+    android:layout_margin="5dp"
+    android:id="@+id/vehicleItem"/>
+
+    <RelativeLayout
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/quarter_circle"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/vehicleItem">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            tools:src="@drawable/baseline_arrow_forward_white24"
+            android:backgroundTint="@color/white"
+            app:shapeAppearanceOverlay="@style/Theme.Delivero.RoundedImage"
+            android:id="@+id/select"/>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

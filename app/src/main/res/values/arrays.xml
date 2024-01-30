@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="package_types">
+        <item>Type X</item>
+        <item>Type Y</item>
+        <item>Type Z</item>
+        <item>Type A</item>
+        <item>Type B</item>
+        <item>Type C</item>
+    </string-array>
+</resources>

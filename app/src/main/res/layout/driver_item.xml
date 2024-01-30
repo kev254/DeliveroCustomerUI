@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<com.google.android.material.imageview.ShapeableImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@mipmap/ic_launcher"
+    app:shapeAppearanceOverlay="@style/Theme.Delivero.CircleImage"
+    android:id="@+id/riderLogo"
+    android:layout_centerVertical="true"
+    android:layout_margin="10dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toEndOf="@+id/riderLogo"
+        android:background="@drawable/bg_grey_rounded">
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/riderName"
+            tools:text="Brian Omondi"
+            android:layout_toStartOf="@+id/selectRider"
+            android:fontFamily="@font/poppins_black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/numberPlate"
+            tools:text="10 Tonnes"
+            android:drawableStart="@drawable/weight"
+            android:textSize="18sp"
+            android:layout_below="@id/riderName"
+            android:layout_marginStart="10dp"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/arrivalTime"
+            tools:text="5 minutes away"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="18sp"
+            android:textColor="@color/secondary"
+            android:layout_below="@+id/numberPlate"
+            android:drawableStart="@drawable/clock"
+            android:layout_margin="10dp"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cost"
+            tools:text="Ksh.345"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="18sp"
+            android:layout_alignParentEnd="true"
+            android:drawableStart="@drawable/money"
+            android:textColor="@color/secondary"
+            android:layout_below="@+id/numberPlate"
+            android:layout_margin="10dp"/>
+       <com.google.android.material.button.MaterialButton
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           app:icon="@drawable/baseline_arrow_forward_ios_24"
+           app:cornerRadius="50dp"
+           android:insetBottom="0dp"
+           android:insetLeft="0dp"
+           android:insetTop="0dp"
+           android:insetRight="0dp"
+           android:layout_margin="5dp"
+           android:layout_alignParentEnd="true"
+           app:iconSize="30dp"
+           android:id="@+id/selectRider"/>
+
+    </RelativeLayout>
+</RelativeLayout>

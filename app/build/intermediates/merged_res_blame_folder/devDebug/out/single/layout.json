@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "com.delivero.customer.app-mergeDevDebugResources-68:/layout/fragment_login.xml",
+        "source": "com.delivero.customer.app-main-73:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-mergeDevDebugResources-68:/layout/activity_auth.xml",
+        "source": "com.delivero.customer.app-main-73:/layout/activity_auth.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-mergeDevDebugResources-68:/layout/new_profile.xml",
+        "source": "com.delivero.customer.app-main-73:/layout/new_profile.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-mergeDevDebugResources-68:/layout/fragment_pickup_and_drop_off.xml",
+        "source": "com.delivero.customer.app-main-73:/layout/fragment_pickup_and_drop_off.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-mergeDevDebugResources-68:/layout/vehicle_item.xml",
+        "source": "com.delivero.customer.app-main-73:/layout/vehicle_item.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-mergeDevDebugResources-68:/layout/request_item.xml",
+        "source": "com.delivero.customer.app-main-73:/layout/request_item.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-mergeDevDebugResources-68:/layout/activity_main.xml",
+        "source": "com.delivero.customer.app-main-73:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-mergeDevDebugResources-68:/layout/fragment_profile.xml",
+        "source": "com.delivero.customer.app-main-73:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-mergeDevDebugResources-68:/layout/fragment_delivery.xml",
+        "source": "com.delivero.customer.app-main-73:/layout/fragment_delivery.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-mergeDevDebugResources-68:/layout/fragment_home.xml",
+        "source": "com.delivero.customer.app-main-73:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-mergeDevDebugResources-68:/layout/fragment_breakdown.xml",
+        "source": "com.delivero.customer.app-main-73:/layout/fragment_breakdown.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-mergeDevDebugResources-68:/layout/fragment_register.xml",
+        "source": "com.delivero.customer.app-main-73:/layout/fragment_register.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-mergeDevDebugResources-68:/layout/recycler_layout.xml",
+        "source": "com.delivero.customer.app-main-73:/layout/recycler_layout.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-mergeDevDebugResources-68:/layout/fragment_rider_selection.xml",
+        "source": "com.delivero.customer.app-main-73:/layout/fragment_rider_selection.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-mergeDevDebugResources-68:/layout/driver_item.xml",
+        "source": "com.delivero.customer.app-main-73:/layout/driver_item.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-mergeDevDebugResources-68:/layout/package_details_fragment.xml",
+        "source": "com.delivero.customer.app-main-73:/layout/package_details_fragment.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-mergeDevDebugResources-68:/layout/fragment_driver_details.xml",
+        "source": "com.delivero.customer.app-main-73:/layout/fragment_driver_details.xml"
+    }
+]

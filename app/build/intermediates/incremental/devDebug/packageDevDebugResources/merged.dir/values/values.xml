@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="package_types">
+        <item>Type X</item>
+        <item>Type Y</item>
+        <item>Type Z</item>
+        <item>Type A</item>
+        <item>Type B</item>
+        <item>Type C</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="secondary">#17508E</color>
+    <color name="secondaryFaded">#F1F4FA</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Delivero</string>
+    <string name="default_web_client_id" translatable="false">1085210092199-juktdgqdop87resbto2iugvqqjfbrfrc.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://emaxyhospital-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1085210092199</string>
+    <string name="google_api_key" translatable="false">AIzaSyBHQUOzekP0LtjAGEKDOYXjyckyhLT2cao</string>
+    <string name="google_app_id" translatable="false">1:1085210092199:android:b671714365a914ea2f3182</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBHQUOzekP0LtjAGEKDOYXjyckyhLT2cao</string>
+    <string name="google_storage_bucket" translatable="false">emaxyhospital.appspot.com</string>
+    <string name="project_id" translatable="false">emaxyhospital</string>
+    <style name="ActionButtonOverflow" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/overflow</item>
+    </style>
+    <style name="Base.Theme.Delivero" parent="Theme.MaterialComponents.Light.NoActionBar">
+        
+        
+   <item name="colorPrimary">@color/secondary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+
+        
+        <item name="actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:fontFamily">@font/poppins</item>
+
+    </style>
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        
+        <item name="windowSplashScreenBackground">@color/white</item>
+
+        
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_round</item>
+        
+        <item name="windowSplashScreenAnimationDuration">200</item>
+
+        
+        <item name="postSplashScreenTheme">@style/Theme.Delivero</item>
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+    <style name="Theme.Delivero" parent="Base.Theme.Delivero"/>
+    <style name="Theme.Delivero.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.Delivero.BottomSheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/bottomSheetStyleWrapper</item>
+    </style>
+    <style name="Theme.Delivero.CircleImage">
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="Theme.Delivero.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+    <style name="Theme.Delivero.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="Theme.Delivero.RoundedImage">
+        <item name="cornerSize">10%</item>
+    </style>
+    <style name="Theme.Delivero.RoundedStartImage">
+        <item name="cornerSizeBottomLeft">50%</item>
+        <item name="cornerSizeTopLeft">50%</item>
+    </style>
+    <style name="bottomSheetStyleWrapper" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+</resources>

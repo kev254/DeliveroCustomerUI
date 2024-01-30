@@ -1,0 +1,334 @@
+[
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/xml_remote_config_defaults.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/xml/remote_config_defaults.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/layout_fragment_profile.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_car.jpg.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/car.jpg"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_dropoff.png.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/dropoff.png"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_quarter_circle.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/quarter_circle.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_destination.png.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/destination.png"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/font_poppins_black.ttf.flat",
+        "source": "com.delivero.customer.app-main-73:/font/poppins_black.ttf"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/layout_fragment_login.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/font_poppins_light_italics.ttf.flat",
+        "source": "com.delivero.customer.app-main-73:/font/poppins_light_italics.ttf"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_bg_grey_stroke_1.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/bg_grey_stroke_1.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/layout_fragment_home.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/font_poppins_bold.ttf.flat",
+        "source": "com.delivero.customer.app-main-73:/font/poppins_bold.ttf"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.delivero.customer.app-main-73:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/layout_activity_auth.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/layout/activity_auth.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_curved_top_white.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/curved_top_white.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_baseline_arrow_forward_white24.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/baseline_arrow_forward_white24.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/layout_activity_main.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/menu_default_menu.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/menu/default_menu.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/font_poppins_extra_bold_italics.ttf.flat",
+        "source": "com.delivero.customer.app-main-73:/font/poppins_extra_bold_italics.ttf"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_my_location.png.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/my_location.png"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_pickup.png.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/pickup.png"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_loading.gif.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/loading.gif"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/font_poppins_bold_italics.ttf.flat",
+        "source": "com.delivero.customer.app-main-73:/font/poppins_bold_italics.ttf"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.delivero.customer.app-main-73:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.delivero.customer.app-main-73:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_clock.png.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/clock.png"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_send.png.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/send.png"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/font_poppins_medium.ttf.flat",
+        "source": "com.delivero.customer.app-main-73:/font/poppins_medium.ttf"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/layout_fragment_driver_details.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/layout/fragment_driver_details.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/layout_new_profile.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/layout/new_profile.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_bg_grey_rounded.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/bg_grey_rounded.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/font_poppins_extra_bold.ttf.flat",
+        "source": "com.delivero.customer.app-main-73:/font/poppins_extra_bold.ttf"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_delivery.png.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/delivery.png"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/layout_fragment_pickup_and_drop_off.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/layout/fragment_pickup_and_drop_off.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/layout_fragment_delivery.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/layout/fragment_delivery.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.delivero.customer.app-main-73:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/layout_fragment_breakdown.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/layout/fragment_breakdown.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/font_poppins_italics.ttf.flat",
+        "source": "com.delivero.customer.app-main-73:/font/poppins_italics.ttf"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_baseline_arrow_drop_down_24.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/baseline_arrow_drop_down_24.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/layout_fragment_rider_selection.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/layout/fragment_rider_selection.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/font_poppins_thin_italics.ttf.flat",
+        "source": "com.delivero.customer.app-main-73:/font/poppins_thin_italics.ttf"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/font_poppins_thin.ttf.flat",
+        "source": "com.delivero.customer.app-main-73:/font/poppins_thin.ttf"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.delivero.customer.app-main-73:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/navigation_auth_navigation.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/navigation/auth_navigation.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_money.png.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/money.png"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.delivero.customer.app-main-73:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/font_poppins_extra_light_italics.ttf.flat",
+        "source": "com.delivero.customer.app-main-73:/font/poppins_extra_light_italics.ttf"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_motorbike.jpg.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/motorbike.jpg"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/font_poppins_extra_light.ttf.flat",
+        "source": "com.delivero.customer.app-main-73:/font/poppins_extra_light.ttf"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/font_poppins_light.ttf.flat",
+        "source": "com.delivero.customer.app-main-73:/font/poppins_light.ttf"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.delivero.customer.app-main-73:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/navigation_main_navigation.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/navigation/main_navigation.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_bg_white_rounded_10.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/bg_white_rounded_10.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/font_poppins.ttf.flat",
+        "source": "com.delivero.customer.app-main-73:/font/poppins.ttf"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_weight.png.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/weight.png"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/layout_request_item.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/layout/request_item.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_menu_icon.png.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/menu_icon.png"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_emergency.png.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/emergency.png"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/layout_driver_item.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/layout/driver_item.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_baseline_arrow_forward_24.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/baseline_arrow_forward_24.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.delivero.customer.app-dev-64:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/font_poppins_semi_bold.ttf.flat",
+        "source": "com.delivero.customer.app-main-73:/font/poppins_semi_bold.ttf"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_bg_primary_stroke_1.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/bg_primary_stroke_1.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/layout_fragment_register.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/layout/fragment_register.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/font_poppins_medium_italics.ttf.flat",
+        "source": "com.delivero.customer.app-main-73:/font/poppins_medium_italics.ttf"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_cart.png.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/cart.png"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_truck.jpg.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/truck.jpg"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/xml_backup_rules.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/xml_data_extraction_rules.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/layout_package_details_fragment.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/layout/package_details_fragment.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.delivero.customer.app-main-73:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/layout_vehicle_item.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/layout/vehicle_item.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_breakdown.png.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/breakdown.png"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_baseline_arrow_forward_ios_24.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/baseline_arrow_forward_ios_24.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.delivero.customer.app-main-73:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/font_poppins_semi_bold_italics.ttf.flat",
+        "source": "com.delivero.customer.app-main-73:/font/poppins_semi_bold_italics.ttf"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.delivero.customer.app-main-73:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_overflow.png.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/overflow.png"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/layout_recycler_layout.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/layout/recycler_layout.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/font_poppins_black_italics.ttf.flat",
+        "source": "com.delivero.customer.app-main-73:/font/poppins_black_italics.ttf"
+    }
+]

@@ -32,6 +32,10 @@
         "source": "com.delivero.customer.app-main-73:/layout/fragment_profile.xml"
     },
     {
+        "merged": "com.delivero.customer.app-mergeDevDebugResources-68:/layout/testui.xml",
+        "source": "com.delivero.customer.app-main-73:/layout/testui.xml"
+    },
+    {
         "merged": "com.delivero.customer.app-mergeDevDebugResources-68:/layout/fragment_delivery.xml",
         "source": "com.delivero.customer.app-main-73:/layout/fragment_delivery.xml"
     },

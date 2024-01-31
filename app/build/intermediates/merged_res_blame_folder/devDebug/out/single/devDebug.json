@@ -148,8 +148,20 @@
         "source": "com.delivero.customer.app-main-73:/layout/fragment_delivery.xml"
     },
     {
+        "merged": "com.delivero.customer.app-merged_res-69:/layout_testui.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/layout/testui.xml"
+    },
+    {
         "merged": "com.delivero.customer.app-merged_res-69:/mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "com.delivero.customer.app-main-73:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_location_icon.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/location_icon.xml"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_person_pin.xml.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/person_pin.xml"
     },
     {
         "merged": "com.delivero.customer.app-merged_res-69:/layout_fragment_breakdown.xml.flat",
@@ -290,6 +302,10 @@
     {
         "merged": "com.delivero.customer.app-merged_res-69:/mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "com.delivero.customer.app-main-73:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.delivero.customer.app-merged_res-69:/drawable_bg.png.flat",
+        "source": "com.delivero.customer.app-main-73:/drawable/bg.png"
     },
     {
         "merged": "com.delivero.customer.app-merged_res-69:/layout_vehicle_item.xml.flat",

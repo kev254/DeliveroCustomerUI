@@ -4,9 +4,11 @@ package com.delivero.customer.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ScrollView;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.delivero.customer.R;
@@ -21,7 +23,10 @@ import java.lang.String;
 
 public final class FragmentRegisterBinding implements ViewBinding {
   @NonNull
-  private final ScrollView rootView;
+  private final RelativeLayout rootView;
+
+  @NonNull
+  public final CardView cardView;
 
   @NonNull
   public final TextInputEditText emailInput;
@@ -30,10 +35,10 @@ public final class FragmentRegisterBinding implements ViewBinding {
   public final TextInputLayout emailLayout;
 
   @NonNull
-  public final MaterialButton logIn;
+  public final RelativeLayout layout1;
 
   @NonNull
-  public final MaterialTextView loginHeader;
+  public final MaterialButton logIn;
 
   @NonNull
   public final TextInputEditText nameInput;
@@ -43,9 +48,6 @@ public final class FragmentRegisterBinding implements ViewBinding {
 
   @NonNull
   public final MaterialTextView noAccount;
-
-  @NonNull
-  public final MaterialTextView or;
 
   @NonNull
   public final TextInputEditText passwordInput;
@@ -63,29 +65,28 @@ public final class FragmentRegisterBinding implements ViewBinding {
   public final CircularProgressIndicator progress;
 
   @NonNull
-  public final MaterialButton signInByGoogle;
+  public final ImageView signInByGoogle;
 
   @NonNull
   public final MaterialTextView signUp;
 
-  private FragmentRegisterBinding(@NonNull ScrollView rootView,
+  private FragmentRegisterBinding(@NonNull RelativeLayout rootView, @NonNull CardView cardView,
       @NonNull TextInputEditText emailInput, @NonNull TextInputLayout emailLayout,
-      @NonNull MaterialButton logIn, @NonNull MaterialTextView loginHeader,
+      @NonNull RelativeLayout layout1, @NonNull MaterialButton logIn,
       @NonNull TextInputEditText nameInput, @NonNull TextInputLayout nameLayout,
-      @NonNull MaterialTextView noAccount, @NonNull MaterialTextView or,
-      @NonNull TextInputEditText passwordInput, @NonNull TextInputLayout passwordLayout,
-      @NonNull TextInputEditText phoneInput, @NonNull TextInputLayout phoneLayout,
-      @NonNull CircularProgressIndicator progress, @NonNull MaterialButton signInByGoogle,
-      @NonNull MaterialTextView signUp) {
+      @NonNull MaterialTextView noAccount, @NonNull TextInputEditText passwordInput,
+      @NonNull TextInputLayout passwordLayout, @NonNull TextInputEditText phoneInput,
+      @NonNull TextInputLayout phoneLayout, @NonNull CircularProgressIndicator progress,
+      @NonNull ImageView signInByGoogle, @NonNull MaterialTextView signUp) {
     this.rootView = rootView;
+    this.cardView = cardView;
     this.emailInput = emailInput;
     this.emailLayout = emailLayout;
+    this.layout1 = layout1;
     this.logIn = logIn;
-    this.loginHeader = loginHeader;
     this.nameInput = nameInput;
     this.nameLayout = nameLayout;
     this.noAccount = noAccount;
-    this.or = or;
     this.passwordInput = passwordInput;
     this.passwordLayout = passwordLayout;
     this.phoneInput = phoneInput;
@@ -97,7 +98,7 @@ public final class FragmentRegisterBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public ScrollView getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -122,6 +123,12 @@ public final class FragmentRegisterBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.card_view;
+      CardView cardView = ViewBindings.findChildViewById(rootView, id);
+      if (cardView == null) {
+        break missingId;
+      }
+
       id = R.id.emailInput;
       TextInputEditText emailInput = ViewBindings.findChildViewById(rootView, id);
       if (emailInput == null) {
@@ -134,15 +141,15 @@ public final class FragmentRegisterBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.logIn;
-      MaterialButton logIn = ViewBindings.findChildViewById(rootView, id);
-      if (logIn == null) {
+      id = R.id.layout1;
+      RelativeLayout layout1 = ViewBindings.findChildViewById(rootView, id);
+      if (layout1 == null) {
         break missingId;
       }
 
-      id = R.id.loginHeader;
-      MaterialTextView loginHeader = ViewBindings.findChildViewById(rootView, id);
-      if (loginHeader == null) {
+      id = R.id.logIn;
+      MaterialButton logIn = ViewBindings.findChildViewById(rootView, id);
+      if (logIn == null) {
         break missingId;
       }
 
@@ -161,12 +168,6 @@ public final class FragmentRegisterBinding implements ViewBinding {
       id = R.id.noAccount;
       MaterialTextView noAccount = ViewBindings.findChildViewById(rootView, id);
       if (noAccount == null) {
-        break missingId;
-      }
-
-      id = R.id.or;
-      MaterialTextView or = ViewBindings.findChildViewById(rootView, id);
-      if (or == null) {
         break missingId;
       }
 
@@ -201,7 +202,7 @@ public final class FragmentRegisterBinding implements ViewBinding {
       }
 
       id = R.id.signInByGoogle;
-      MaterialButton signInByGoogle = ViewBindings.findChildViewById(rootView, id);
+      ImageView signInByGoogle = ViewBindings.findChildViewById(rootView, id);
       if (signInByGoogle == null) {
         break missingId;
       }
@@ -212,9 +213,9 @@ public final class FragmentRegisterBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentRegisterBinding((ScrollView) rootView, emailInput, emailLayout, logIn,
-          loginHeader, nameInput, nameLayout, noAccount, or, passwordInput, passwordLayout,
-          phoneInput, phoneLayout, progress, signInByGoogle, signUp);
+      return new FragmentRegisterBinding((RelativeLayout) rootView, cardView, emailInput,
+          emailLayout, layout1, logIn, nameInput, nameLayout, noAccount, passwordInput,
+          passwordLayout, phoneInput, phoneLayout, progress, signInByGoogle, signUp);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,0 +1,10 @@
+#Wed Jan 31 09:31:04 EAT 2024
+base.0=/Users/macbook/AndroidStudioProjects/DeliveroCustomer/app/build/intermediates/dex/devDebugAndroidTest/mergeExtDexDevDebugAndroidTest/classes.dex
+base.1=/Users/macbook/AndroidStudioProjects/DeliveroCustomer/app/build/intermediates/dex/devDebugAndroidTest/mergeProjectDexDevDebugAndroidTest/0/classes.dex
+base.2=/Users/macbook/AndroidStudioProjects/DeliveroCustomer/app/build/intermediates/dex/devDebugAndroidTest/mergeProjectDexDevDebugAndroidTest/3/classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=3/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex

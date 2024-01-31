@@ -4,14 +4,18 @@ package com.delivero.customer.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
+import android.widget.ScrollView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import androidx.viewpager2.widget.ViewPager2;
 import com.delivero.customer.R;
 import com.google.android.material.imageview.ShapeableImageView;
+import com.google.android.material.progressindicator.CircularProgressIndicator;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.textview.MaterialTextView;
 import java.lang.NullPointerException;
@@ -20,7 +24,7 @@ import java.lang.String;
 
 public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ScrollView rootView;
 
   @NonNull
   public final ShapeableImageView avatar;
@@ -29,7 +33,34 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final MaterialTextView book;
 
   @NonNull
+  public final RelativeLayout br;
+
+  @NonNull
+  public final TextView brview;
+
+  @NonNull
+  public final RelativeLayout del;
+
+  @NonNull
+  public final TextView delview;
+
+  @NonNull
+  public final TextView emview;
+
+  @NonNull
+  public final RelativeLayout er;
+
+  @NonNull
   public final ViewPager2 pager;
+
+  @NonNull
+  public final CircularProgressIndicator progress;
+
+  @NonNull
+  public final CircularProgressIndicator progress2;
+
+  @NonNull
+  public final CircularProgressIndicator progress3;
 
   @NonNull
   public final TabLayout tabLayout;
@@ -37,20 +68,46 @@ public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   public final MaterialTextView userName;
 
-  private FragmentHomeBinding(@NonNull LinearLayout rootView, @NonNull ShapeableImageView avatar,
-      @NonNull MaterialTextView book, @NonNull ViewPager2 pager, @NonNull TabLayout tabLayout,
-      @NonNull MaterialTextView userName) {
+  @NonNull
+  public final RecyclerView vehicleListRecycler;
+
+  @NonNull
+  public final RecyclerView vehicleListRecycler2;
+
+  @NonNull
+  public final RecyclerView vehicleListRecycler3;
+
+  private FragmentHomeBinding(@NonNull ScrollView rootView, @NonNull ShapeableImageView avatar,
+      @NonNull MaterialTextView book, @NonNull RelativeLayout br, @NonNull TextView brview,
+      @NonNull RelativeLayout del, @NonNull TextView delview, @NonNull TextView emview,
+      @NonNull RelativeLayout er, @NonNull ViewPager2 pager,
+      @NonNull CircularProgressIndicator progress, @NonNull CircularProgressIndicator progress2,
+      @NonNull CircularProgressIndicator progress3, @NonNull TabLayout tabLayout,
+      @NonNull MaterialTextView userName, @NonNull RecyclerView vehicleListRecycler,
+      @NonNull RecyclerView vehicleListRecycler2, @NonNull RecyclerView vehicleListRecycler3) {
     this.rootView = rootView;
     this.avatar = avatar;
     this.book = book;
+    this.br = br;
+    this.brview = brview;
+    this.del = del;
+    this.delview = delview;
+    this.emview = emview;
+    this.er = er;
     this.pager = pager;
+    this.progress = progress;
+    this.progress2 = progress2;
+    this.progress3 = progress3;
     this.tabLayout = tabLayout;
     this.userName = userName;
+    this.vehicleListRecycler = vehicleListRecycler;
+    this.vehicleListRecycler2 = vehicleListRecycler2;
+    this.vehicleListRecycler3 = vehicleListRecycler3;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -87,9 +144,63 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.br;
+      RelativeLayout br = ViewBindings.findChildViewById(rootView, id);
+      if (br == null) {
+        break missingId;
+      }
+
+      id = R.id.brview;
+      TextView brview = ViewBindings.findChildViewById(rootView, id);
+      if (brview == null) {
+        break missingId;
+      }
+
+      id = R.id.del;
+      RelativeLayout del = ViewBindings.findChildViewById(rootView, id);
+      if (del == null) {
+        break missingId;
+      }
+
+      id = R.id.delview;
+      TextView delview = ViewBindings.findChildViewById(rootView, id);
+      if (delview == null) {
+        break missingId;
+      }
+
+      id = R.id.emview;
+      TextView emview = ViewBindings.findChildViewById(rootView, id);
+      if (emview == null) {
+        break missingId;
+      }
+
+      id = R.id.er;
+      RelativeLayout er = ViewBindings.findChildViewById(rootView, id);
+      if (er == null) {
+        break missingId;
+      }
+
       id = R.id.pager;
       ViewPager2 pager = ViewBindings.findChildViewById(rootView, id);
       if (pager == null) {
+        break missingId;
+      }
+
+      id = R.id.progress;
+      CircularProgressIndicator progress = ViewBindings.findChildViewById(rootView, id);
+      if (progress == null) {
+        break missingId;
+      }
+
+      id = R.id.progress2;
+      CircularProgressIndicator progress2 = ViewBindings.findChildViewById(rootView, id);
+      if (progress2 == null) {
+        break missingId;
+      }
+
+      id = R.id.progress3;
+      CircularProgressIndicator progress3 = ViewBindings.findChildViewById(rootView, id);
+      if (progress3 == null) {
         break missingId;
       }
 
@@ -105,8 +216,27 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeBinding((LinearLayout) rootView, avatar, book, pager, tabLayout,
-          userName);
+      id = R.id.vehicleListRecycler;
+      RecyclerView vehicleListRecycler = ViewBindings.findChildViewById(rootView, id);
+      if (vehicleListRecycler == null) {
+        break missingId;
+      }
+
+      id = R.id.vehicleListRecycler2;
+      RecyclerView vehicleListRecycler2 = ViewBindings.findChildViewById(rootView, id);
+      if (vehicleListRecycler2 == null) {
+        break missingId;
+      }
+
+      id = R.id.vehicleListRecycler3;
+      RecyclerView vehicleListRecycler3 = ViewBindings.findChildViewById(rootView, id);
+      if (vehicleListRecycler3 == null) {
+        break missingId;
+      }
+
+      return new FragmentHomeBinding((ScrollView) rootView, avatar, book, br, brview, del, delview,
+          emview, er, pager, progress, progress2, progress3, tabLayout, userName,
+          vehicleListRecycler, vehicleListRecycler2, vehicleListRecycler3);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

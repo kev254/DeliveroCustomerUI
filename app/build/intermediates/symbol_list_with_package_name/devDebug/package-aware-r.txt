@@ -2197,6 +2197,8 @@ color mtrl_textinput_disabled_color
 color mtrl_textinput_filled_box_default_background_color
 color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
+color my_primary
+color my_secondary
 color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
@@ -3506,6 +3508,7 @@ drawable baseline_arrow_drop_down_24
 drawable baseline_arrow_forward_24
 drawable baseline_arrow_forward_ios_24
 drawable baseline_arrow_forward_white24
+drawable bg
 drawable bg_grey_rounded
 drawable bg_grey_stroke_1
 drawable bg_primary_stroke_1
@@ -3587,6 +3590,7 @@ drawable imagepicker_ic_unselect_all
 drawable imagepicker_img_placeholder
 drawable imagepicker_indicator_bg
 drawable loading
+drawable location_icon
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -3664,6 +3668,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable overflow
+drawable person_pin
 drawable pickup
 drawable places_autocomplete_toolbar_shadow
 drawable places_powered_by_google_dark
@@ -3820,11 +3825,13 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id br
 id browser_actions_header_text
 id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id brview
 id btnNext
 id button
 id buttonPanel
@@ -3838,6 +3845,7 @@ id capacityLayout
 id card1
 id card_content_root
 id card_root
+id card_view
 id carryVelocity
 id center
 id center1
@@ -3886,7 +3894,9 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id del
 id deltaRelative
+id delview
 id dependency_ordering
 id descriptionLayout
 id design_bottom_sheet
@@ -3932,11 +3942,13 @@ id emailInput
 id emailLayout
 id embed
 id emptyText
+id emview
 id end
 id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id er
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -4014,6 +4026,7 @@ id jumpToEnd
 id jumpToStart
 id labeled
 id layout
+id layout1
 id left
 id leftToRight
 id legacy
@@ -4137,7 +4150,6 @@ id open_search_view_search_prefix
 id open_search_view_status_bar_spacer
 id open_search_view_toolbar
 id open_search_view_toolbar_container
-id or
 id outline
 id outward
 id overlay
@@ -4194,6 +4206,8 @@ id primary_button
 id profile
 id profileFragment
 id progress
+id progress2
+id progress3
 id progressIndicator
 id progress_circular
 id progress_horizontal
@@ -4366,6 +4380,8 @@ id useLogo
 id userName
 id vehicleItem
 id vehicleListRecycler
+id vehicleListRecycler2
+id vehicleListRecycler3
 id vehicleType
 id vehicleTypeLayout
 id vertical_only
@@ -4636,6 +4652,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout splash_screen_view
 layout support_simple_spinner_dropdown_item
+layout testui
 layout vehicle_item
 menu default_menu
 mipmap ic_launcher

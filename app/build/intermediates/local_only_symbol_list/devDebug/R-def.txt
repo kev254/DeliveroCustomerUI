@@ -2,6 +2,8 @@ R_DEF: Internal format may change without notice
 local
 array package_types
 color black
+color my_primary
+color my_secondary
 color secondary
 color secondaryFaded
 color white
@@ -9,6 +11,7 @@ drawable baseline_arrow_drop_down_24
 drawable baseline_arrow_forward_24
 drawable baseline_arrow_forward_ios_24
 drawable baseline_arrow_forward_white24
+drawable bg
 drawable bg_grey_rounded
 drawable bg_grey_stroke_1
 drawable bg_primary_stroke_1
@@ -25,11 +28,13 @@ drawable emergency
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable loading
+drawable location_icon
 drawable menu_icon
 drawable money
 drawable motorbike
 drawable my_location
 drawable overflow
+drawable person_pin
 drawable pickup
 drawable quarter_circle
 drawable send
@@ -66,15 +71,20 @@ id auth_navigation
 id avatar
 id book
 id bookings
+id br
+id brview
 id btnNext
 id capacity
 id capacityLayout
 id card1
+id card_view
 id center1
 id changeProfile
 id cost
 id costHolder
 id date
+id del
+id delview
 id descriptionLayout
 id destinationValue
 id destinationView
@@ -87,6 +97,8 @@ id div5
 id drawerView
 id emailInput
 id emailLayout
+id emview
+id er
 id forgotPassword
 id fragmentLogin
 id fragmentRegister
@@ -96,6 +108,7 @@ id hideFor
 id homeContainerView
 id homeFragment
 id icon
+id layout1
 id logIn
 id loginHeader
 id logout
@@ -106,7 +119,6 @@ id nameLayout
 id noAccount
 id noData
 id numberPlate
-id or
 id packageDescription
 id packageDetailsFragment
 id pager
@@ -124,6 +136,8 @@ id pickupValue
 id profile
 id profileFragment
 id progress
+id progress2
+id progress3
 id recycler
 id regNumber
 id regNumberLayout
@@ -155,6 +169,8 @@ id typeName
 id userName
 id vehicleItem
 id vehicleListRecycler
+id vehicleListRecycler2
+id vehicleListRecycler3
 id vehicleType
 id vehicleTypeLayout
 id weightInput
@@ -175,6 +191,7 @@ layout new_profile
 layout package_details_fragment
 layout recycler_layout
 layout request_item
+layout testui
 layout vehicle_item
 menu default_menu
 mipmap ic_launcher

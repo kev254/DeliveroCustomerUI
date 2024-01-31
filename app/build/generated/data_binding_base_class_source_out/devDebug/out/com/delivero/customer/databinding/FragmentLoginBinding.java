@@ -4,9 +4,11 @@ package com.delivero.customer.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.delivero.customer.R;
@@ -24,6 +26,9 @@ public final class FragmentLoginBinding implements ViewBinding {
   private final RelativeLayout rootView;
 
   @NonNull
+  public final CardView cardView;
+
+  @NonNull
   public final TextInputEditText emailInput;
 
   @NonNull
@@ -33,16 +38,13 @@ public final class FragmentLoginBinding implements ViewBinding {
   public final MaterialTextView forgotPassword;
 
   @NonNull
+  public final RelativeLayout layout1;
+
+  @NonNull
   public final MaterialButton logIn;
 
   @NonNull
-  public final MaterialTextView loginHeader;
-
-  @NonNull
   public final MaterialTextView noAccount;
-
-  @NonNull
-  public final MaterialTextView or;
 
   @NonNull
   public final TextInputEditText passwordInput;
@@ -54,26 +56,26 @@ public final class FragmentLoginBinding implements ViewBinding {
   public final CircularProgressIndicator progress;
 
   @NonNull
-  public final MaterialButton signInByGoogle;
+  public final ImageView signInByGoogle;
 
   @NonNull
   public final MaterialTextView signUp;
 
-  private FragmentLoginBinding(@NonNull RelativeLayout rootView,
+  private FragmentLoginBinding(@NonNull RelativeLayout rootView, @NonNull CardView cardView,
       @NonNull TextInputEditText emailInput, @NonNull TextInputLayout emailLayout,
-      @NonNull MaterialTextView forgotPassword, @NonNull MaterialButton logIn,
-      @NonNull MaterialTextView loginHeader, @NonNull MaterialTextView noAccount,
-      @NonNull MaterialTextView or, @NonNull TextInputEditText passwordInput,
-      @NonNull TextInputLayout passwordLayout, @NonNull CircularProgressIndicator progress,
-      @NonNull MaterialButton signInByGoogle, @NonNull MaterialTextView signUp) {
+      @NonNull MaterialTextView forgotPassword, @NonNull RelativeLayout layout1,
+      @NonNull MaterialButton logIn, @NonNull MaterialTextView noAccount,
+      @NonNull TextInputEditText passwordInput, @NonNull TextInputLayout passwordLayout,
+      @NonNull CircularProgressIndicator progress, @NonNull ImageView signInByGoogle,
+      @NonNull MaterialTextView signUp) {
     this.rootView = rootView;
+    this.cardView = cardView;
     this.emailInput = emailInput;
     this.emailLayout = emailLayout;
     this.forgotPassword = forgotPassword;
+    this.layout1 = layout1;
     this.logIn = logIn;
-    this.loginHeader = loginHeader;
     this.noAccount = noAccount;
-    this.or = or;
     this.passwordInput = passwordInput;
     this.passwordLayout = passwordLayout;
     this.progress = progress;
@@ -108,6 +110,12 @@ public final class FragmentLoginBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.card_view;
+      CardView cardView = ViewBindings.findChildViewById(rootView, id);
+      if (cardView == null) {
+        break missingId;
+      }
+
       id = R.id.emailInput;
       TextInputEditText emailInput = ViewBindings.findChildViewById(rootView, id);
       if (emailInput == null) {
@@ -126,27 +134,21 @@ public final class FragmentLoginBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.layout1;
+      RelativeLayout layout1 = ViewBindings.findChildViewById(rootView, id);
+      if (layout1 == null) {
+        break missingId;
+      }
+
       id = R.id.logIn;
       MaterialButton logIn = ViewBindings.findChildViewById(rootView, id);
       if (logIn == null) {
         break missingId;
       }
 
-      id = R.id.loginHeader;
-      MaterialTextView loginHeader = ViewBindings.findChildViewById(rootView, id);
-      if (loginHeader == null) {
-        break missingId;
-      }
-
       id = R.id.noAccount;
       MaterialTextView noAccount = ViewBindings.findChildViewById(rootView, id);
       if (noAccount == null) {
-        break missingId;
-      }
-
-      id = R.id.or;
-      MaterialTextView or = ViewBindings.findChildViewById(rootView, id);
-      if (or == null) {
         break missingId;
       }
 
@@ -169,7 +171,7 @@ public final class FragmentLoginBinding implements ViewBinding {
       }
 
       id = R.id.signInByGoogle;
-      MaterialButton signInByGoogle = ViewBindings.findChildViewById(rootView, id);
+      ImageView signInByGoogle = ViewBindings.findChildViewById(rootView, id);
       if (signInByGoogle == null) {
         break missingId;
       }
@@ -180,9 +182,9 @@ public final class FragmentLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentLoginBinding((RelativeLayout) rootView, emailInput, emailLayout,
-          forgotPassword, logIn, loginHeader, noAccount, or, passwordInput, passwordLayout,
-          progress, signInByGoogle, signUp);
+      return new FragmentLoginBinding((RelativeLayout) rootView, cardView, emailInput, emailLayout,
+          forgotPassword, layout1, logIn, noAccount, passwordInput, passwordLayout, progress,
+          signInByGoogle, signUp);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

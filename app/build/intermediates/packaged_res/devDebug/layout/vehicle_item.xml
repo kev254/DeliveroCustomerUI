@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+    android:layout_width="200dp"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -42,6 +42,7 @@
     <RelativeLayout
         android:layout_width="60dp"
         android:layout_height="60dp"
+        android:visibility="gone"
         android:background="@drawable/quarter_circle"
         android:layout_alignParentEnd="true"
         android:layout_alignBottom="@+id/vehicleItem">
@@ -52,7 +53,6 @@
             android:layout_marginTop="10dp"
             tools:src="@drawable/baseline_arrow_forward_white24"
             android:backgroundTint="@color/white"
-            app:shapeAppearanceOverlay="@style/Theme.Delivero.RoundedImage"
             android:id="@+id/select"/>
     </RelativeLayout>
 
